@@ -1,0 +1,26 @@
+div {
+    width:1024px; 
+    height:770px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat (3 1fr);
+    gap: 5px;
+    height: 90vh;
+}
+map{
+    grid-column: 1 / 4;
+}
+header{
+    background:navy;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+aside{
+    background: silver;
+    font-size: 1.5em;
+    text-align: center;
+}

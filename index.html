@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Bus Tracker</title>
+	<title>Real Time Bus Tracker</title>
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 	<link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
 	<script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
@@ -11,10 +11,12 @@
 </head>
 
 <body>
-	<h1>Real Time Bus Tracker</h1>		
-	<p><img src="red.png"> Northbound</p>
-	<p><img src="blue.png"> Southbound</p>
-	<div id="map"></div>
+	<div class="wrapper">
+		<header>Real Time Bus Tracker</header>		
+		<legend><img src="red.png"> Northbound</legend>
+		<legend><img src="blue.png"> Southbound</legend>
+		<content><div id="map"></div></content>
+	</div>
 </body>
 
 <script src="./mapanimation.js"></script>
